@@ -1,17 +1,11 @@
-import React,{useState,useEffect} from 'react'
-import './login.css'
-function Login() {
-	const [cake,setCake]=useState(true)
-	
+import React ,{useState} from 'react'
+import './navbar.css'
+function Navbar() {
+    const [cake,setCake]=useState(true)
 
-	
     return (
-		
         <div>
-      <header className="header-area">
-  <div className="navbar-area">
-    <div className="container">
-      <nav className="site-navbar">
+            <nav className="site-navbar">
         <a href="#home" className="site-logo">Salimia Doctor</a>
 
         <ul className={cake?'':'open'} onClick={()=>cake?'':setCake(!cake)}>
@@ -25,18 +19,8 @@ function Login() {
           <span></span>
         </button>
       </nav>
-    </div>
-  </div>
-  <div className="intro-area">
-    <div className="container">
-      <h2>Bringing the doctor closer to you</h2>
-	 
-      <p>Building a healthier nation</p>
-    </div>
-  </div>
-</header>
         </div>
     )
 }
 
-export default Login
+export default Navbar

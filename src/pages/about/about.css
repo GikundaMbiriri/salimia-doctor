@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Spectral+SC:ital@1&display=swap");
+.about {
+  margin-top: 10px;
+  text-align: center;
+}
+h1 {
+  font-family: "Henny Penny", cursive;
+}
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.salimia {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+.desc {
+  width: 600px;
+}
+.team {
+  text-align: center;
+}
+.hospitals {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.hosi1 {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+.hosi {
+  width: 500px;
+  padding: 10px;
+}
+@media screen and (max-width: 600px) {
+  .salimia {
+    width: 400px;
+    height: 200px;
+  }
+  .desc {
+    width: 400px;
+  }
+  .hosi {
+    width: 400px;
+  }
+}

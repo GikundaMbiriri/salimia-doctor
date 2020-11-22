@@ -1,10 +1,21 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import './App.css';
-import Login from './components/login/Login'
+import home from './pages/home/home'
+import about from './pages/about/about'
+import Navbar from './components/navbar/Navbar'
 function App() {
   return (
-    <div className="App">
-     <Login/>
+    <div>
+      <Router>
+       <Switch>
+                <Route exact path="/" component={home} />
+                <Route exact path="/about" component={about} />
+                {/* <Route exact path="/create" component={create} />
+                <AuthRoute exact path="/login" component={login} />
+                <AuthRoute exact path="/signup" component={signup} /> */}
+              </Switch>
+              </Router>
     </div>
   );
 }
