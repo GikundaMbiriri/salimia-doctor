@@ -34,7 +34,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-a.site-logo {
+.site-logo {
   font-size: 26px;
   font-weight: 800;
   text-transform: uppercase;

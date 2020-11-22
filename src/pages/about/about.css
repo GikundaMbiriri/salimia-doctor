@@ -42,10 +42,16 @@ h1 {
     width: 400px;
     height: 200px;
   }
+  .about-content {
+    padding: 10px;
+  }
   .desc {
     width: 400px;
   }
   .hosi {
     width: 400px;
+  }
+  .hosi1 {
+    height: 400px;
   }
 }
