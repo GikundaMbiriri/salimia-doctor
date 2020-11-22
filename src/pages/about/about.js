@@ -15,13 +15,14 @@ function about() {
               
           </div>
           <div className="about-content">
+          <div >
+                    <img className="salimia" src={salimia}/>
+              </div>
               <div className="desc">
                <h3>Health is wealth</h3>
                <p>At Salimia app, we value your well-being.We team up with a number of hospitals to bring you the best doctors at the the comfort of your home.Freds Academy Annexe is a state of art facility established in 2013 with essence of offering quality education and holistic development to children. We are located in Meru County and cater for kindergarten and lower primary (class 1-3). We are the feeder school for Freds Academy Main School where our student join for Class 4-8 to continue their education.</p>
               </div>
-              <div >
-                    <img className="salimia" src={salimia}/>
-              </div>
+            
                         </div>
                         <div className="team">
                             <h2>Our Hospitals</h2>
