@@ -39,19 +39,19 @@ h1 {
 }
 @media screen and (max-width: 600px) {
   .salimia {
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: 400px;
   }
   .about-content {
     padding: 10px;
   }
   .desc {
-    width: 400px;
+    width: 300px;
   }
   .hosi {
-    width: 400px;
+    width: 300px;
   }
   .hosi1 {
-    height: 400px;
+    height: 200px;
   }
 }
