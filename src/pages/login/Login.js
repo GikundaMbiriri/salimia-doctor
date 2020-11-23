@@ -3,6 +3,7 @@ import './login.css'
 import doctor from '../../images/logo.jpg'
 function login() {
     return (
+      <div className="er">
         <div className="page" >
             <div>
                 <h2>Welcome!</h2>
@@ -25,6 +26,7 @@ function login() {
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
 
+        </div>
         </div>
     )
 }

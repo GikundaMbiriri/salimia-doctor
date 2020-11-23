@@ -8,16 +8,24 @@
   border-radius: 50%;
   object-fit: cover;
 }
+.er {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(../../images/bg.jpeg);
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+}
 .page {
+  color: aliceblue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: auto;
+  height: 80vh;
   width: 600px;
   margin: auto;
   padding-bottom: 20px;
-  background-color: thistle;
+  border-radius: 10px;
 }
 @media screen and (max-width: 600px) {
   .form-carrier {
