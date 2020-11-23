@@ -1,9 +1,15 @@
 import React from 'react'
 import './login.css'
+import Navbar from '../../components/navbar/Navbar'
+
 import doctor from '../../images/logo.jpg'
 function login() {
     return (
       <div className="er">
+     
+            <div className="navbar-area">
+          <Navbar/>  
+          </div>
         <div className="page" >
             <div>
                 <h2>Welcome!</h2>
@@ -24,8 +30,11 @@ function login() {
   
 </form>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div className="bts">
+            <button type="submit" class="bt">Login</button>
+            <button type="submit" class="bn">Register</button>
 
+            </div>
         </div>
         </div>
     )
