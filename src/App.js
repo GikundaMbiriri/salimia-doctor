@@ -4,8 +4,8 @@ import './App.css';
 import home from './pages/home/home'
 import about from './pages/about/about'
 import login from './pages/login/Login'
+import register from './pages/register/Register'
 
-import Navbar from './components/navbar/Navbar'
 function App() {
   return (
     <div>
@@ -14,6 +14,7 @@ function App() {
                 <Route exact path="/" component={home} />
                 <Route exact path="/about" component={about} />
                 <Route exact path="/login" component={login} />
+                <Route exact path="/register" component={register} />
 
                 {/* <Route exact path="/create" component={create} />
                 <AuthRoute exact path="/login" component={login} />

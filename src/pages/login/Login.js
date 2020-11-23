@@ -1,7 +1,7 @@
 import React from 'react'
 import './login.css'
 import Navbar from '../../components/navbar/Navbar'
-
+import { Link } from 'react-router-dom';
 import doctor from '../../images/logo.jpg'
 function login() {
     return (
@@ -32,7 +32,7 @@ function login() {
             </div>
             <div className="bts">
             <button type="submit" class="bt">Login</button>
-            <button type="submit" class="bn">Register</button>
+            <Link to="/register"> <button type="submit" class="bn">Register</button></Link>
 
             </div>
         </div>

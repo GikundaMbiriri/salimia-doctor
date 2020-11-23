@@ -12,7 +12,7 @@ function Navbar() {
         <ul className={cake?'':'open'} onClick={()=>cake?'':setCake(!cake)}>
           <li><Link to="/">home</Link></li>
           <li><Link  to="/about">about</Link ></li>
-          <li><Link  to="#">Make Appointment</Link ></li>
+          <li><Link  to="/login">Make Appointment</Link ></li>
           <li><Link  to="#">contact</Link ></li>
         </ul>
 
