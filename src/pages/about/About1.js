@@ -13,26 +13,28 @@ function About1() {
       }, []);
     return (
         <div>
-             <div className="about" data-aos="fade-left">
+             <div className="about" >
               <h1>About Us</h1>
               
           </div>
   
           <div className="about-content">
           <div >
-                    <img className="salimia" src={salimia}/>
+                    <img className="salimia" src={salimia} />
               </div>
-              <div className="desc">
+              <div className="desc" data-aos="flip-left">
                <h3>Health is wealth</h3>
                <p>At Salimia app, we value your well-being.We team up with a number of hospitals to bring you the best doctors at the the comfort of your home.Freds Academy Annexe is a state of art facility established in 2013 with essence of offering quality education and holistic development to children. We are located in Meru County and cater for kindergarten and lower primary (class 1-3). We are the feeder school for Freds Academy Main School where our student join for Class 4-8 to continue their education.</p>
               </div>
             
                         </div>
-                        <div className="team">
+                        <div className="team" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                             <h2>Our Hospitals</h2>
                         </div>
                         <div className="hospitals"  data-aos="fade-up">
-                            <div className="hosi" data-aos="fade-up">
+                            <div className="hosi" data-aos="zoom-in">
                  
 
                                 <img src={hosi1} className="hosi1"/>
@@ -44,19 +46,19 @@ function About1() {
                             </div>
                              
 
-                            <div className="hosi" data-aos="fade-up">
+                            <div className="hosi" data-aos="zoom-in-left">
                                 <img src={hosi1} className="hosi1"/>
                                 <h3>St Anne</h3>
                                 <div>At Freds Annexe, we strive to offer an enabling environment for each child to thrive. We do this in a friendly and loving atmosphere and through several programs that are all geared towards holistic development, academic excellence and a high level of discipline grounded on Christian values. Values lay a strong foundation for our pupils to exude confidence and excel in academic, co-curricular activities and most of all form attitudes that are positive and enabling, inspiring each child to Aspire for excellence. The Competency Based Curriculum
                                  (CBC) which we offer complements our philosophy of nurturing holistic development founded on</div>
                             </div>
-                            <div className="hosi" data-aos="fade-up">
+                            <div className="hosi" data-aos="zoom-out-up">
                                 <img src={hosi1} className="hosi1"/>
                                 <h3>St Anne</h3>
                                 <div>At Freds Annexe, we strive to offer an enabling environment for each child to thrive. We do this in a friendly and loving atmosphere and through several programs that are all geared towards holistic development, academic excellence and a high level of discipline grounded on Christian values. Values lay a strong foundation for our pupils to exude confidence and excel in academic, co-curricular activities and most of all form attitudes that are positive and enabling, inspiring each child to Aspire for excellence. The Competency Based Curriculum
                                  (CBC) which we offer complements our philosophy of nurturing holistic development founded on</div>
                             </div>
-                            <div className="hosi" data-aos="fade-up">
+                            <div className="hosi" data-aos="flip-up">
                                 <img src={hosi1} className="hosi1"/>
                                 <h3>St Anne</h3>
                                 <div>At Freds Annexe, we strive to offer an enabling environment for each child to thrive. We do this in a friendly and loving atmosphere and through several programs that are all geared towards holistic development, academic excellence and a high level of discipline grounded on Christian values. Values lay a strong foundation for our pupils to exude confidence and excel in academic, co-curricular activities and most of all form attitudes that are positive and enabling, inspiring each child to Aspire for excellence. The Competency Based Curriculum
