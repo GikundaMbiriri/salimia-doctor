@@ -16,7 +16,7 @@ import {
   export const getScreams = () => (dispatch) => {
     dispatch({ type: LOADING_DATA });
     axios
-      .get("https://us-central1-zigzag-d2feb.cloudfunctions.net/api/topics")
+      .get("https://us-central1-salimia-doctor.cloudfunctions.net/api/departments")
       .then((res) => {
         dispatch({
           type: SET_DEPARTMENTS,

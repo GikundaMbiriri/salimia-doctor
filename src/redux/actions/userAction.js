@@ -16,11 +16,11 @@ import {
         const FBIdToken = `Bearer ${res.data.token}`;
         localStorage.setItem("FBIdToken", FBIdToken);
         axios.defaults.headers.common["Authorization"] = FBIdToken;
-        dispatch({ type: CLEAR_ERRORS });
         dispatch({ type: SET_AUTHENTICATED });
+
+        dispatch({ type: CLEAR_ERRORS });
         history.push("/");
-      })
-      .catch((err) => {
+      }).catch((err) => {
         dispatch({
           type: SET_ERRORS,
           payload: err.response.data,
