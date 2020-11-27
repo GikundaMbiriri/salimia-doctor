@@ -24,7 +24,7 @@ function Login() {
     </div>
   </div>
   <div className="intro-area">
-    <div className="container" data-aos="flip-left">
+    <div className="container" >
       <h2>Bringing the doctor closer to you</h2>
 	 
       <p>Building a healthier nation</p>

@@ -23,7 +23,7 @@ function About1() {
           </div>
   
           <div className="about-content">
-          <div  data-aos="flip-up">
+          <div  >
                     <img className="salimia" src={salimia} />
               </div>
               <div className="desc" data-aos="flip-left">
