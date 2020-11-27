@@ -12,18 +12,18 @@ import "aos/dist/aos.css";
 function About1() {
     useEffect(() => {
         AOS.init({
-          duration : 1000
+          duration : 2000
         });
       }, []);
     return (
         <div>
-             <div className="about" >
+             <div className="about" data-aos="zoom-in">
               <h1>About Us</h1>
               
           </div>
   
           <div className="about-content">
-          <div >
+          <div  data-aos="flip-up">
                     <img className="salimia" src={salimia} />
               </div>
               <div className="desc" data-aos="flip-left">

@@ -140,6 +140,7 @@ body {
     max-height: 0;
     overflow: hidden;
     transition: 0.3s;
+    z-index: 1;
   }
   .site-navbar ul li {
     width: 100%;
