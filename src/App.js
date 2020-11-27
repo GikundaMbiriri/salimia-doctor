@@ -12,6 +12,7 @@ import { ThemeProvider as MuiThemeProvider } from "@material-ui/core/styles";
 
 import './App.css';
 import home from './pages/home/home'
+import info from './pages/info/info'
 import about from './pages/about/about'
 import login from './pages/login/Login'
 import register from './pages/register/Register'
@@ -85,6 +86,7 @@ function App() {
                 <Route exact path="/about" component={about} />
                 <Route exact path="/login" component={login} />
                 <Route exact path="/register" component={register} />
+                <Route exact path="/info" component={info} />
 
                 {/* <Route exact path="/create" component={create} />
                 <AuthRoute exact path="/login" component={login} />
