@@ -13,9 +13,16 @@
   height: 100px;
   border-radius: 50%;
 }
+.k {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .det {
   width: 40vw;
-  height: 100vh;
+  height: auto;
+  background-color: whitesmoke;
+  padding: 5px;
 }
 .profile {
   display: flex;
@@ -25,10 +32,14 @@
 .y {
   margin-left: 50px;
 }
+.data {
+  width: 90vw;
+}
 .email {
   display: flex;
-  padding: 5px 30px;
+  padding: 5px 5px;
   align-items: center;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 600px) {
   .nv {

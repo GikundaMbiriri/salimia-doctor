@@ -29,28 +29,41 @@ function account() {
 <hr/>
             </div>
             <div className="det">
-                <div className="profile">
-                <div>
+            <div className="k">
             <img src={user} className="i"/>
+            <div>
+    <p><span >Monitored under:</span>St Anne</p>
+    <p><span >patient ID:</span>36927683</p>
+</div>
+            </div>
+            <p style={{color:"blue"}}>Peter Mbiriri</p>
+
+                <div className="profile">
+          
+            <div>
+            <p> <b>Age</b></p>
+                <p>20</p>
             </div>
             <div>
-                <p style={{color:"blue"}}>Peter Mbiriri</p>
-                <p><span style={{color:"blue"}}>Age:</span>20 <span style={{color:"#6A5ACD"}}>Sex:</span>Male</p>
+            <p> <b>Sex</b></p>
+                <p>male</p>
+            </div>
+            <div>
+               <p> <b>Insurance</b></p>
+                <p>NHIF</p>
             </div>
 
-<div>
-    <p><span style={{color:"blue"}}>Monitored under:</span>St Anne</p>
-    <p><span style={{color:"blue"}}>patient ID:</span>36927683</p>
-</div></div>
+</div>
 <div className="data">
 <div className="email"><div><MailOutline style={{color:"#6A5ACD"}}/>Email</div><div className="y">petermbiriri8957@gmail.com<div style={{color:"blue"}}>verified</div>
 
-</div>
 
 </div>
 <div className="email"><div><PermPhoneMsgIcon style={{color:"#6A5ACD"}}/>Mobile</div><div className="y">07137999975<div style={{color:"blue"}}>verified</div>
 
 </div>
+</div>
+
 
 </div>
 
