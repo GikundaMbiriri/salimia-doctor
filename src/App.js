@@ -16,6 +16,8 @@ import home from './pages/home/home'
 import info from './pages/info/info'
 import about from './pages/about/about'
 import login from './pages/login/Login'
+import records from './pages/account/records'
+
 import register from './pages/register/Register'
 axios.defaults.baseURL =
   "https://us-central1-salimia-doctor.cloudfunctions.net/api/";
@@ -89,6 +91,7 @@ function App() {
                 <Route exact path="/register" component={register} />
                 <Route exact path="/info" component={info} />
                 <Route exact path="/account" component={account} />
+                <Route exact path="/account/records" component={records} />
 
                 {/* <Route exact path="/create" component={create} />
                 <AuthRoute exact path="/login" component={login} />

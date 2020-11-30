@@ -98,7 +98,7 @@ body {
 
 /* intro-area css start */
 .intro-area {
-  height: calc(100vh - 61px);
+  height: calc(60vh - 61px);
   display: flex;
   align-items: center;
   text-align: center;
@@ -113,12 +113,180 @@ body {
 .intro-area p {
   font-size: 18px;
 }
-/* intro-area css end */
 
+/* intro-area css end */
+.con {
+  position: relative;
+  width: 35em;
+  margin: auto;
+  transition: transform 2s ease;
+  color: #fff;
+}
+
+.con:hover .front {
+  transform: rotateY(-180deg);
+  z-index: 0;
+}
+
+.con:hover .back {
+  transform: rotateY(0deg);
+}
+
+.con > div {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  border-radius: 24px;
+  text-align: center;
+  transition: transform 2s ease;
+  justify-content: space-evenly;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  backface-visibility: hidden;
+}
+
+.front {
+  position: relative;
+  padding: 3em 5em;
+  z-index: 1;
+  background: url(https://img.freepik.com/free-vector/black-dark-3d-low-poly-geometric-background_79145-393.jpg?size=626&ext=jpg);
+}
+
+.front > *,
+.back > * {
+  transform: translateZ(100px);
+  transition: transform 0.3s ease;
+}
+
+.title {
+  position: relative;
+}
+
+.title:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  width: 50%;
+  height: 4px;
+  border-radius: 2px;
+  background: #00ff5a;
+  transform: translateX(-50%);
+}
+
+.description {
+  margin-top: 1.5em;
+  display: block;
+  line-height: 150%;
+}
+
+.back {
+  top: 0;
+  position: absolute;
+  padding: 3em;
+  transform: rotateY(180deg);
+  width: 100%;
+  background: #222;
+}
+
+.back .title {
+  margin-bottom: 8px;
+}
+
+.input-box {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+input,
+textarea {
+  color: #fff;
+  width: 80%;
+  border: none;
+  padding: 4px 0;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: none;
+  margin-top: 20px;
+  resize: none;
+}
+
+label {
+  position: absolute;
+  font-size: 13px;
+  left: 10%;
+  top: 24px;
+  pointer-events: none;
+  transition: all 0.2s;
+}
+
+.input-box input:focus,
+.input-box textarea:focus {
+  border-bottom: 2px solid #00ff5a;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label,
+.input-box textarea:focus ~ label,
+.input-box textarea:valid ~ label {
+  top: 10px;
+  font-size: 10px;
+  color: #00ff5a;
+}
+
+.send {
+  padding: 8px 24px;
+  margin-top: 1em;
+  border: 2px solid #00ff5a;
+  border-radius: 20px;
+  background: transparent;
+  color: #00ff5a;
+  cursor: pointer;
+}
+
+.send:focus,
+.send:active {
+  background: #00ff5a;
+  color: #2b2b2b;
+  outline: none;
+}
 /* mobile breakpoint start */
+.about {
+  width: 50vw;
+  text-align: center;
+}
+.contact {
+  width: 50vw;
+  text-align: center;
+}
+.rest {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.about hr {
+  border: none;
+  height: 20px;
+  width: 50%;
+  height: 50px;
+  margin-top: 0;
+  border-bottom: 1px solid #1f1209;
+  box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px;
+}
 @media screen and (max-width: 767px) {
   .container {
     max-width: 720px;
+  }
+  .about {
+    width: 90vw;
+    margin: auto;
+  }
+  .contact {
+    width: 90vw;
+    margin: auto;
   }
   /* navbar css for mobile start */
   .nav-toggler {
@@ -141,6 +309,9 @@ body {
     overflow: hidden;
     transition: 0.3s;
     z-index: 1;
+  }
+  .con {
+    width: 25em;
   }
   .site-navbar ul li {
     width: 100%;
