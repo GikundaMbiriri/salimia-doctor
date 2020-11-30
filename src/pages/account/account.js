@@ -1,7 +1,7 @@
 import React from 'react'
 import './account.css'
 import Navbar from '../../components/navbar/Navbar'
-import user from '../../images/user.png'
+import user from '../../images/user1.jpg'
 import PermPhoneMsgIcon from '@material-ui/icons/PermPhoneMsg';
 import { MailOutline } from '@material-ui/icons';
 function account() {
@@ -93,7 +93,14 @@ function account() {
       <td>...</td>
 
     </tr>
-   
+    <tr>
+      <th scope="row">Diabeties</th>
+      <td>2017</td>
+      <td>200g Sulfonylureas</td>
+      <td>Dr.Kinyanjui</td>
+      <td>...</td>
+
+    </tr>
   </tbody>
 </table>
 </div>
