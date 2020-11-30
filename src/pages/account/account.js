@@ -29,6 +29,9 @@ function account() {
 <hr/>
             </div>
             <div className="det">
+            <h4>Health Profile</h4>
+
+                <div className="ds">
             <div className="k">
             <img src={user} className="i"/>
             <div>
@@ -68,7 +71,32 @@ function account() {
 </div>
 
 </div>
-<hr/>
+<hr/></div>
+<div className="health-records"> <h2>Health Records</h2>
+<table class="table table-borderless">
+  <thead>
+    <tr>
+      <th scope="col">Health Condition</th>
+      <th scope="col">Diagonised in</th>
+      <th scope="col">Medication</th>
+      <th scope="col">Treated by</th>
+      <th scope="col">Notes</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Bp</th>
+      <td>2010</td>
+      <td>100g Telmi40</td>
+      <td>Mgikunda</td>
+      <td>...</td>
+
+    </tr>
+   
+  </tbody>
+</table>
+</div>
             </div>
         </div>
         </div>
