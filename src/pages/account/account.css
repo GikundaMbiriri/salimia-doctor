@@ -68,8 +68,12 @@ td {
   }
   .ds {
     width: 90vw;
+    margin: auto;
   }
-  table {
+  table,
+  thead,
+  tr {
+    margin: auto;
     width: 90vw;
   }
 }
