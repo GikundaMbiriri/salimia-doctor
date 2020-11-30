@@ -80,7 +80,6 @@ function account() {
       <th scope="col">Diagonised in</th>
       <th scope="col">Medication</th>
       <th scope="col">Treated by</th>
-      <th scope="col">Notes</th>
 
     </tr>
   </thead>
@@ -90,7 +89,6 @@ function account() {
       <td>2010</td>
       <td>100g Telmi40</td>
       <td>Mgikunda</td>
-      <td>...</td>
 
     </tr>
     <tr>
@@ -98,7 +96,6 @@ function account() {
       <td>2017</td>
       <td>200g Sulfonylureas</td>
       <td>Dr.Kinyanjui</td>
-      <td>...</td>
 
     </tr>
   </tbody>
