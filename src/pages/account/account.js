@@ -101,6 +101,52 @@ function account() {
   </tbody>
 </table>
 </div>
+<div className="health-records"> <h2>Medications</h2>
+<table class="table table-borderless">
+  <thead>
+    <tr>
+      <th scope="col">Medication</th>
+      <th scope="col">Taken for</th>
+      <th scope="col">From-Till</th>
+      <th scope="col">Prescribed by</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">ht 100mg</th>
+      <td>BP</td>
+      <td>29/11/2020-Long term</td>
+      <td>Mgikunda</td>
+
+    </tr>
+
+  </tbody>
+</table>
+</div>
+<div className="health-records"> <h2>Allergies</h2>
+<table class="table table-borderless">
+  <thead>
+    <tr>
+      <th scope="col">Allergy</th>
+      <th scope="col">Triggered by</th>
+      <th scope="col">Medication</th>
+      <th scope="col">Reaction</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Dustitis</th>
+      <td>Dust particles</td>
+      <td>Centium</td>
+      <td>Sneezing</td>
+
+    </tr>
+
+  </tbody>
+</table>
+</div>
             </div>
         </div>
         </div>
