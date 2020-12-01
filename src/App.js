@@ -16,8 +16,10 @@ import home from './pages/home/home'
 import info from './pages/info/info'
 import about from './pages/about/about'
 import login from './pages/login/Login'
-import records from './pages/account/records'
+import medical from './pages/account/medical/medical'
 
+import records from './pages/account/records/records'
+import Footer from './components/footer/Footer'
 import register from './pages/register/Register'
 axios.defaults.baseURL =
   "https://us-central1-salimia-doctor.cloudfunctions.net/api/";
@@ -98,6 +100,7 @@ function App() {
                 <AuthRoute exact path="/signup" component={signup} /> */}
               </Switch>
               </Router>
+              <Footer/>
     </div>
     </Provider>
     </MuiThemeProvider>

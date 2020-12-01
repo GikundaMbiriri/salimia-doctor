@@ -1,0 +1,13 @@
+.lk {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  table,
+  thead,
+  tr {
+    margin: auto;
+    width: 90vw;
+  }
+}
